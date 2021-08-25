@@ -1,0 +1,10 @@
+1. https://github.com/janurendra05/Mobile_Aplikasi
+
+2.variable angka1 & angka2 telah di devinisikan namun tidak memiliki nilai sehinggga app mengira sebagai
+pointer kosong karena tidak dapat mengeksekusi intruksi dan tidak ada opsi jika terjadi error maka app
+otomatis foreclose. cara mengatasinya adalah mendevinisikan nilai awal angka1 & angka2 sebagai 0 diawal.
+
+3.debug memberikan info tentang aplikasi yang dijalankan secara realtime umumnya info yang didapat adalah input user ,
+ukuran resource yang digunakan,window,ukuran asset
+
+ 
