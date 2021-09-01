@@ -1,0 +1,8 @@
+1. https://github.com/janurendra05/Mobile_Aplikasi
+
+2.
+RecyclerView adalah versi ListView yang lebih canggih dan fleksibel. 
+Widget ini adalah kontainer untuk menampilkan rangkaian data besar yang bisa 
+digulir secara sangat efisien dengan mempertahankan tampilan dalam jumlah terbatas.
+
+ 
