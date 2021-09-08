@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">week04_31273</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="isian"></string>
+    <string name="buttonKirim"></string>
+    <string name="kirimBalik"></string>
+    <string name="jawaban"></string>
+</resources>
