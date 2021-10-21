@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.umn.utslab_3123">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label=""
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UTSlab_3123">
+        <activity
+            android:name=".coba_recycle"
+            android:exported="true"
+            android:label="@string/title_activity_coba_recycle"
+            android:theme="@style/Theme.UTSlab_3123.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login"
+            android:label=""
+            android:parentActivityName=".MainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".profile"
+            android:label="Profile"
+            android:parentActivityName=".MainActivity">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".list_sfx">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".list_sfx2"
+            android:parentActivityName=".login">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".login" />
+        </activity>
+
+        <activity android:name=".lagu1"
+            android:label="OH MY GOD WOW"
+            android:parentActivityName=".list_sfx2">
+
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".list_sfx2" />
+        </activity>
+
+        <activity android:name=".lagu2"
+                android:label="HAH GEIIIIIII !!!"
+            android:parentActivityName=".list_sfx2">
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".list_sfx2" />
+        </activity>
+
+        <activity android:name=".lagu3"
+            android:label="JOTARO VS DIO"
+            android:parentActivityName=".list_sfx2">
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".list_sfx2" />
+        </activity>
+
+        <activity android:name=".lagu4"
+            android:label="LORD GAROX DUB JAPAN"
+            android:parentActivityName=".list_sfx2">
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".list_sfx2" />
+        </activity>
+
+    </application>
+
+</manifest>

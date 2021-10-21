@@ -1,0 +1,12 @@
+1. https://github.com/janurendra05/Mobile_Aplikasi
+
+2. 
+- Cara Android mendelegasikan tindakan ke aplikasi lain adalah dengan 
+memanggil Intent yang menjelaskan tindakan yang ingin Anda lakukan. Proses ini terdiri dari tiga bagian: 
+Intent itu sendiri, panggilan untuk memulai Activity eksternal, dan kode untuk menangani data 
+gambar saat fokus beralih kembali ke aktivitas
+
+- Cara Android mendelegasikan tindakan ke aplikasi lain adalah dengan
+ memanggil Intent yang menjelaskan tindakan yang ingin Anda lakukan. Proses ini terdiri dari tiga bagian: 
+Intent itu sendiri, panggilan untuk memulai Activity eksternal, 
+dan kode untuk menangani video saat fokus beralih kembali ke aktivitas Anda

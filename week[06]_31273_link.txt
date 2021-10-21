@@ -1,0 +1,4 @@
+1. https://github.com/janurendra05/Mobile_Aplikasi
+
+2. Pada praktikum ini Animasi dapat di Custom dan di bentuk dari sekumpulan gambar,
+	kita juga dapat bemberikan action animasi apabila user melakukan tindakan seperti menekan button dll.
